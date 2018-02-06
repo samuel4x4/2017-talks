@@ -1,4 +1,4 @@
-# [Symfony Con - Clug 2017](https://clujcon2017.symfony.com/) talks
+# [Symfony Con - Cluj 2017](https://clujcon2017.symfony.com/) talks
 
 - All talks are in **english**.
 - Comment and rate talks on [joind.in](https://joind.in/event/symfonycon-cluj-2017/schedule/list)
@@ -40,7 +40,8 @@ By [David Buchmann](https://connect.sensiolabs.com/profile/dbu)
 ~~Slides~~  
 ~~Video~~
 
-By [Caliman Alin Adrian](https://connect.sensiolabs.com/profile/acaliman)
+By [Caliman Alin Adrian](https://connect.sensiolabs.com/profile/acaliman)  
+![github](icon/github.png) [@adrcal](https://github.com/adrcal)
 
 ---
 
@@ -55,7 +56,7 @@ By [Caliman Alin Adrian](https://connect.sensiolabs.com/profile/acaliman)
 ~~Video~~
 
 By [Julien Pauli](https://connect.sensiolabs.com/profile/jpauli)  
-![github](icon/github.png) [@dbu](https://github.com/adrcal)  
+![github](icon/github.png) [@jpauli](https://github.com/jpauli)  
 ![twitter](icon/twitter.png) [@julienPauli](https://twitter.com/julienPauli)
 
 ---
@@ -114,7 +115,7 @@ By [Marco Pivetta](https://connect.sensiolabs.com/profile/ocramius)
   <dd>Due to complex web projects we work on, there was a need for deeper integration between content management system and eCommerce solution. As eZ Platform is based on Symfony we searched for a Symfony based ecommerce solution and found Sylius as the best choice. We combined the two systems in one Symfony instance so we can integrate on much deeper level. Learn about our experience with merging and maintaining such a solution.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://www.slideshare.net/IvoLukac/merging-two-big-symfony-based-applications-symfonycon-2017)  
 ~~Video~~
 
 By [Ivo Lukač](https://connect.sensiolabs.com/profile/gof)  
@@ -194,7 +195,7 @@ By [Larry Garfield](https://connect.sensiolabs.com/profile/crell)
   <dd>The world we live in is one where data is one of the most valuable assets. There are many different pieces of data we can analyse on all kind of data from analytics of user behaviour of your platform, user generated content, monitoring of exception rates, or when your core business model is to provide some kind of analytics platform. This talk will talk about how you can, in your Symfony applications, perform some simple trend analysis techniques to build models, analyse data to get useful information and spot anomalies.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://speakerdeck.com/michaelcullum/trend-analysis-and-machine-learning-in-php)  
 ~~Video~~
 
 By [Michael Cullum](https://connect.sensiolabs.com/profile/unknownbliss)  
@@ -242,7 +243,7 @@ By [Mihai Nica](https://connect.sensiolabs.com/profile/redecs)
   <dd>Over the last few years I mostly worked with legacy PHP applications and one thing that comes up in each project is performance. Unfortunately more often than not discussion around performance issues are purely hypothetical or around micro-optimizations or the collected data is misinterpreted. In my talk I want to lay out how to effectively anticipate, identify and mitigate performance issues in a Symfony application. I want to discuss how to approach performance optimizations including micro-optimizations, some tools available to a developer for investigating and monitoring performance issues as well as some ways to improve performance, including a quick introduction to both application and HTTP-caching.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://speakerdeck.com/dbrumann/discovering-and-solving-performance-issues-1)  
 ~~Video~~
 
 By [Denis Brumann](https://connect.sensiolabs.com/profile/dbrumann)  
@@ -258,7 +259,7 @@ By [Denis Brumann](https://connect.sensiolabs.com/profile/dbrumann)
   <dd>This session will dive into Composer's guts to see which choices we made worked and which ones did not. After six years and a few hundred thousand users, the Composer code has been through many iterations, problems and successes. Let's have a retrospective to see what we can learn from it.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](http://slides.seld.be/?file=2017-11-16+Lessons+Learned+Building+the+Composer+Internals.html)  
 ~~Video~~
 
 By [Jordi Boggiano](https://connect.sensiolabs.com/profile/seldaek)  
@@ -290,7 +291,7 @@ By [Sara Golemon](https://connect.sensiolabs.com/profile/sgolemon)
   <dd>Regular Expressions are one of the most powerful tools for every engineer in the IT industry. Though their reputation suffers from being misused or misunderstood, they still provide vast amounts of power coming from the theory behind them. In this talk, I will provide not only the necessary knowledge to understand how they work and what powers they bring to the table but I'll also explain some of the "arcane incantations", ie. some of the very powerful but hardly known RegEx constructs.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://speakerdeck.com/thunderer/mastering-regex-incantations)  
 ~~Video~~
 
 By [Tomasz Kowalczyk](https://connect.sensiolabs.com/profile/thunderer)  
@@ -306,7 +307,7 @@ By [Tomasz Kowalczyk](https://connect.sensiolabs.com/profile/thunderer)
   <dd>Ready to write an amazing front-end for your app? There are so many great tools, like React, Vue.js, module loaders, Sass, LESS, PostCSS and more. But, they all have one thing in common: you need to configure a build system before you write a single line of code! Thankfully, there's Webpack: the leading tool for processing & bundling your JavaScript and CSS. There's just one problem: configuring Webpack is tough and requires a lot of Webpack-specific knowledge. Say hello to Webpack Encore: a library built by Symfony to quickly bootstrap a sophisticated asset setup, complete with minification, SASS processing, automatic versioning, Babel support and everything you need to start writing great JavaScript quickly. In this talk, we'll also learn about using JavaScript modules, how to bootstrap a framework (like React) and other important modern practices. Give your assets a huge boost with Webpack Encore!</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://www.slideshare.net/weaverryan/webpack-encore-symfony-live-2017-san-francisco)  
 ~~Video~~
 
 By [Ryan Weaver](https://connect.sensiolabs.com/profile/weaverryan)  
@@ -322,7 +323,7 @@ By [Ryan Weaver](https://connect.sensiolabs.com/profile/weaverryan)
   <dd>Often clients already have a working product that they want to improve. In these cases starting to work on the project right away may turn into a development nightmare. Therefore assessing the technical status of the product is very important. Depending on the needs of the client this can be done from several points of view : technical standards, maintainability, performance, security, etc. This talk is going to cover how can you prepare an audit of a Symfony application, what should you look out for and how can the result of the audit impact further development on the project. I will talk also about what I found to be the best tools for the job and how can you get clients to see the benefits of it.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://speakerdeck.com/lenardpalko/symfonycon2017-auditing-symfony-apps)  
 ~~Video~~
 
 By [Palko Lenard](https://connect.sensiolabs.com/profile/lenardpalko)  
@@ -354,7 +355,7 @@ By [Kévin Dunglas](https://connect.sensiolabs.com/profile/dunglas)
   <dd>The Dependency Injection component is one of the central pieces of any Symfony applications since version 2.0. Starting this winter, it has gained many new features that were needed to build the new Symfony 4 experience around Flex. While used extensively in core, can you leverage them in your own apps? Can you create a lazy iterator in Yaml? A scoped service locator? Configure auto-configuration? During this talk, I'll tell you about the new tags, interfaces or annotations that allow building powerful services. The goal: making your apps always more expressive, thus maintainable.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://speakerdeck.com/nicolasgrekas/dependency-injection-component-v4-dot-0-symfonycon-cluj-2017)  
 ~~Video~~
 
 By [Nicolas Grekas](https://connect.sensiolabs.com/profile/nicolas-grekas)  
@@ -403,7 +404,7 @@ By [Anna Filina](https://connect.sensiolabs.com/profile/afilina)
   <dd>OpenSky is one of the first large ecommerce platforms to use Symfony2. The whole marketplace has been running on Symfony for many years. Over this talk we will share: how we use the framework and other PHP components; our deployment process; using Doctrine with MySQL and MongoDB; things we learned to avoid; running a large PHPUnit test suite; And more interesting tips on how our team operates with a large code base with a fully remote operation with teams across multiple continents.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://www.slideshare.net/pgodel/symfonycon-cluj-2017-symfony-at-opensky)  
 ~~Video~~
 
 By [Pablo Godel](https://connect.sensiolabs.com/profile/pgodel)  
@@ -419,7 +420,7 @@ By [Pablo Godel](https://connect.sensiolabs.com/profile/pgodel)
   <dd>A lot happened! 52 blog posts to help you keep up with all new things, a looooot of pull requests, 2 new versions out… Well I'm sure you missed something. Let's review what happened during last year: basically we'll see and/or discover nice new features that appeared since the last year.</dd>
 </dl>
 
-~~Slides~~  
+[Slides](https://speakerdeck.com/saro0h/symfonycon-cluj-a-year-of-symfony)  
 ~~Video~~
 
 By [Sarah Khalil](https://connect.sensiolabs.com/profile/saro0h)  
@@ -434,4 +435,112 @@ By [Sarah Khalil](https://connect.sensiolabs.com/profile/saro0h)
 
 # Lightning Talks
 
+## 5 new initiatives to grow the community
 
+~~Slides~~  
+~~Video~~
+
+By [Fabien Potencier](https://connect.sensiolabs.com/profile/fabpot)  
+![github](icon/github.png) [@fabpot](https://github.com/fabpot)  
+![twitter](icon/twitter.png) [@fabpot](https://twitter.com/fabpot)
+
+And [Lukas Kahwe Smith](https://connect.sensiolabs.com/profile/lsmith)  
+![github](icon/github.png) [@lsmith77](https://github.com/lsmith77)  
+![twitter](icon/twitter.png) [@lsmith](https://twitter.com/lsmith)
+
+---
+
+## composer.lock demystified
+
+[Slides](http://www.naderman.de/slippy/slides/2017-11-16-SymfonyCon-composer-lock-demystified.pdf)  
+~~Video~~
+
+By [Nils Adermann](https://connect.sensiolabs.com/profile/naderman)  
+![github](icon/github.png) [@naderman](https://github.com/naderman)  
+![twitter](icon/twitter.png) [@naderman](https://twitter.com/naderman)
+
+---
+
+## Eeek. My tests are mutating
+
+~~Slides~~  
+~~Video~~
+
+By [Caliman Alin Adrian](https://connect.sensiolabs.com/profile/acaliman)  
+![github](icon/github.png) [@adrcal](https://github.com/adrcal)
+
+---
+
+## Simplify your application with a command bus
+
+[Slides](https://speakerdeck.com/romaricdrigon/simplify-your-application-with-a-command-bus)  
+~~Video~~
+
+By [Romaric Drigon](https://connect.sensiolabs.com/profile/romaricdrigon)  
+![github](icon/github.png) [@romaricdrigon](https://github.com/romaricdrigon)
+
+---
+
+## PHX - PHP syntax extension framework
+
+~~Slides~~  
+~~Video~~
+
+By [Pascal Münst](https://connect.sensiolabs.com/profile/timesplinter)  
+![github](icon/github.png) [@timesplinter](https://github.com/timesplinter)  
+![twitter](icon/twitter.png) [@PascalMySelf](https://twitter.com/PascalMySelf)
+
+---
+
+## Sulu: Tired of fixing your CMS instead of building great applications
+
+[Slides](https://speakerdeck.com/wachterjohannes/symfonycon-cluj-2017-batteries-included-thanks-to-symfony)  
+~~Video~~
+
+By [Wachter Johannes](https://connect.sensiolabs.com/profile/wjohannes)  
+![github](icon/github.png) [@wachterjohannes](https://github.com/wachterjohannes)  
+![twitter](icon/twitter.png) [@WachterJohannes](https://twitter.com/WachterJohannes)
+
+---
+
+## Diversity in the Symfony community
+
+~~Slides~~  
+~~Video~~
+
+By [Lukas Kahwe Smith](https://connect.sensiolabs.com/profile/lsmith)  
+![github](icon/github.png) [@lsmith77](https://github.com/lsmith77)  
+![twitter](icon/twitter.png) [@lsmith](https://twitter.com/lsmith)
+
+---
+
+## ChubbyPHP - How to use a simple serializer
+
+[Slides](https://slideshare.net/dominikzogg/chubbyphp-deserialization)  
+~~Video~~
+
+By [Dominik Zogg](https://connect.sensiolabs.com/profile/dominik.zogg)  
+![github](icon/github.png) [@dominikzogg](https://github.com/dominikzogg)  
+![twitter](icon/twitter.png) [@dominikzogg](https://twitter.com/dominikzogg)
+
+---
+
+## Lets talk about Sylius and ecommerce with Symfony components
+
+~~Slides~~  
+~~Video~~
+
+By [Gabriel Udrescu](https://connect.sensiolabs.com/profile/gabiudrescu)  
+![github](icon/github.png) [@gabiudrescu](https://github.com/gabiudrescu)  
+![twitter](icon/twitter.png) [@gabiudrescu](https://twitter.com/gabiudrescu)
+
+---
+
+## Symfony Development Environment Automatio
+
+~~Slides~~  
+~~Video~~
+
+By [Cosmin-Romeo TANASE](https://connect.sensiolabs.com/profile/tanasecosminromeo)  
+![github](icon/github.png) [@tanasecosminromeo](https://github.com/tanasecosminromeo)  
+![twitter](icon/twitter.png) [@tcr92](https://twitter.com/tcr92)
